@@ -1,0 +1,206 @@
+body {
+  background: 
+    linear-gradient( rgba(12, 12, 12, 0.9), rgba(12, 12, 12, 0.7)), url("https://3h854h1ibj2x19g1cg3nclgc-wpengine.netdna-ssl.com/wp-content/uploads/2014/12/Books-1.jpg");
+}
+
+#logo {
+  margin-right: -10px;
+}
+
+.top {
+  height: 110px;
+  width: auto;
+  background: white;
+  width: fill;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.username {
+  width: 15%;
+  display: inline-table;
+}
+
+.usernameTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid #f4b942;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  display: inline-table;
+}
+
+.usernameTerm:focus{
+  color: #8c6923;
+}
+
+.password {
+  width: 15%;
+  display: right;
+}
+
+.passwordTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid #f4b942;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  display: inline-table;
+}
+
+.passwordTerm:focus{
+  color: #8c6923;
+}
+
+.loginButton {
+  padding-top: -30px;
+  position: inline-table;
+  display: inline-table;
+  width: 40px;
+  height: 15px;
+  border: 1px solid #f4b942;
+  background: #f4b942;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 10px;
+  line-height: 10px;
+}
+
+.login {
+  width: 900px;
+  height: 900px;
+  padding-top: 1%;
+  padding-left: 20px;
+}
+
+#signup {
+  font-size: 10px;
+}
+
+#primary_nav_wrap
+{
+	margin-top:15px
+}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	color:#8c6923;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+	background:#ddd
+}
+
+#primary_nav_wrap ul li:hover
+{
+	background:#f4b942
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:82px
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}
+
+.search {
+  width: 100%;
+  display: inline-table;
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid #f4b942;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  display: inline-table;
+}
+
+.searchTerm:focus{
+  color: #8c6923;
+}
+
+.searchButton {
+  position: absolute;
+  right: -50px;
+  width: 63px;
+  height: 36px;
+  border: 1px solid #f4b942;
+  background: #f4b942;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.searchWrap{
+  width: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  height: 50%;
+}
