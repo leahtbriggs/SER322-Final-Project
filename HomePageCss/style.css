@@ -1,5 +1,5 @@
 body {
-  background: 
+  background:
     linear-gradient( rgba(12, 12, 12, 0.9), rgba(12, 12, 12, 0.7)), url("https://3h854h1ibj2x19g1cg3nclgc-wpengine.netdna-ssl.com/wp-content/uploads/2014/12/Books-1.jpg");
 }
 
@@ -81,7 +81,8 @@ body {
 }
 
 #signup {
-  font-size: 10px;
+  font-size: 12px;
+  color: #f4b942;
 }
 
 #primary_nav_wrap
@@ -201,6 +202,6 @@ body {
   text-align: center;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
   height: 50%;
 }
