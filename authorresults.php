@@ -1,7 +1,7 @@
 <?php
 require('mysqli_connect.php');
-$isbn = mysqli_real_escape_string($dbc, $_POST['isbnNum']);
-$query = "SELECT * FROM BOOK WHERE ISBN=$isbn";
+$author = mysqli_real_escape_string($dbc, $_POST['author']);
+$query = "SELECT * FROM BOOK WHERE author LIKE '%$author%'";
 
 $response = mysqli_query($dbc, $query);
 $homelink = "index.html";

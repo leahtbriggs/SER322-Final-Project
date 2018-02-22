@@ -1,10 +1,10 @@
 <?php
 require('mysqli_connect.php');
-$isbn = mysqli_real_escape_string($dbc, $_POST['isbnNum']);
-$query = "SELECT * FROM BOOK WHERE ISBN=$isbn";
+
+$query = "SELECT * FROM BOOK, PUBLISHER WHERE pubID=pID";
 
 $response = mysqli_query($dbc, $query);
-$homelink = "index.html";
+
 if($response) {
 
 echo '<table align="left"
@@ -14,7 +14,8 @@ cellspacing="5" cellpadding="8" style="background-color:blue;color:white">
 <tc><td align="left"><b>Title</b></td>
 <tc><td align="left"><b>Author</b></td>
 <tc><td align="left"><b>Pages</b></td>
-<tc><td align="left"><b>Genre</b></td>';
+<tc><td align="left"><b>Genre</b></td>
+<tc><td align="left"><b>Publisher</b></td>';
 
   while($row = mysqli_fetch_array($response)){
     echo '<tr><td align="left">' .
@@ -22,11 +23,11 @@ cellspacing="5" cellpadding="8" style="background-color:blue;color:white">
     $row['title'] . '</td><td align="left">' .
     $row['author'] . '</td><td align="left">' .
     $row['pages'] . '</td><td align="left">' .
-    $row['genre'] . '</td><td align="left">';
+    $row['genre'] . '</td><td align="left">' .
+    $row['pName'] . '</td><td align="left">';
 
 
     echo '</tr>';
-
   }
 
   echo '</table>';
