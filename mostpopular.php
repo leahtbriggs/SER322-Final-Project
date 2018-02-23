@@ -8,7 +8,7 @@ $response = mysqli_query($dbc, $query);
 if($response) {
 
 echo '<table align="left"
-cellspacing="5" cellpadding="8">
+cellspacing="5" cellpadding="8" style="background-color:#111;color: #818181;">
 
 <tc><td align="left"><b>ISBN</b></td>
 <tc><td align="left"><b>Title</b></td>
