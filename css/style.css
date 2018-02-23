@@ -1,5 +1,5 @@
 body {
-  background: 
+  background:
     linear-gradient( rgba(12, 12, 12, 0.9), rgba(12, 12, 12, 0.7)), url("https://3h854h1ibj2x19g1cg3nclgc-wpengine.netdna-ssl.com/wp-content/uploads/2014/12/Books-1.jpg");
 }
 
@@ -8,7 +8,7 @@ body {
 }
 
 .top {
-  height: 110px;
+  height: 115px;
   width: auto;
   background: white;
   width: fill;
@@ -80,8 +80,34 @@ body {
   padding-left: 20px;
 }
 
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: auto;
+    left: auto;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
 #signup {
-  font-size: 10px;
+  font-size:11px;
+  color: #111;
 }
 
 #primary_nav_wrap
@@ -201,6 +227,6 @@ body {
   text-align: center;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
   height: 50%;
 }

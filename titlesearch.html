@@ -39,7 +39,7 @@
 <center> <div class="searchWrap">
   <nav id="primary_nav_wrap">
     <ul>
-      <li><a href="#">Search by:</a>
+      <li><a href="#">Search by: Book Title</a>
     <ul>
       <li><a href="isbnsearch.html">ISBN</a></li>
       <li><a href="titlesearch.html">Title</a></li>
@@ -49,11 +49,13 @@
   </li>
 
     <div class="search">
-      <input type="text" class="searchTerm" placeholder="Search!">
+      <form action="titleresults.php" method="post">
+      <input type="text" class="searchTerm" placeholder="Search!" name="bookTitle">
 
       <button type="submit" class="searchButton"> Search
         <i class="search"></i>
      </button>
+   </form>
    </div>
       </div> </center>
 
