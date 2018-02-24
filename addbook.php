@@ -3,9 +3,10 @@
 <html>
 <head>
   <title>Add Book</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <form method="post" action="bookadded.php">
+  <form class="forms" method="post" action="bookadded.php">
     <div>
   	  <label>ISBN</label>
   	  <input type="text" name="ISBN" value="<?php echo $ISBN; ?>">

@@ -3,9 +3,10 @@
 <html>
 <head>
   <title>Leave a Book Review</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <form method="post" action="submitreview.php">
+  <form class="forms" method="post" action="submitreview.php">
     <div>
   	  <label>ISBN</label>
   	  <input type="text" name="bookISBN" value="<?php echo $bookISBN; ?>">

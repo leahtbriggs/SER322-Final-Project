@@ -3,9 +3,10 @@
 <html>
 <head>
   <title>User Registration</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <form method="post" action="bookremoved.php">
+  <form class="forms" method="post" action="bookremoved.php">
     <div>
   	  <label>ISBN</label>
   	  <input type="text" name="ISBN" value="<?php echo $ISBN; ?>">

@@ -3,9 +3,10 @@
 <html>
 <head>
   <title>User Registration</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <form method="post" action="newuser.php">
+  <form class="forms" method="post" action="newuser.php">
     <div>
   	  <label>First Name</label>
   	  <input type="text" name="fname" value="<?php echo $fname; ?>">
