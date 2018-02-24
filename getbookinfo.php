@@ -1,7 +1,7 @@
 <?php
 require('mysqli_connect.php');
 
-$query = "SELECT * FROM BOOK, PUBLISHER WHERE pubID=pID ORDER BY title";
+$query = "SELECT * FROM BOOK LEFT JOIN PUBLISHER ON pubID=pID ORDER BY title";
 
 $response = mysqli_query($dbc, $query);
 
